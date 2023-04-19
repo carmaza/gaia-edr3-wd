@@ -51,4 +51,5 @@ def table_from_fits(path="GaiaEDR3_WD_main.fits"):
         # 'astropy.table.table.Table' object.
         table = Table.read(bintable)
 
+    print("Table created.")
     return table

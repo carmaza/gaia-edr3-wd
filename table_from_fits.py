@@ -13,7 +13,7 @@ from astropy.table import Table
 
 def table_from_fits(path="GaiaEDR3_WD_main.fits"):
     """
-    Read catalogue of white dwarfs in Gaia EDR3 and return table.
+    Read catalog of white dwarfs in Gaia EDR3 and return table.
 
     N. P. Gentille Fusillo et al. 2021 (GF+21)
     MNRAS 508, 3877–3896 (2021)
@@ -23,13 +23,13 @@ def table_from_fits(path="GaiaEDR3_WD_main.fits"):
     ----------
 
     path : str
-        The path to the catalogue, including filename and FITS extension.
+        The path to the catalog, including filename and FITS extension.
 
     Returns
     -------
 
     out : astropy.table.table.Table
-        The catalogue as a table.
+        The catalog as a table.
 
     """
 
@@ -41,12 +41,12 @@ def table_from_fits(path="GaiaEDR3_WD_main.fits"):
 
     print(f"Opened file {path}.")
 
-    # Creating a new table from the catalogue provided by GF+21 throws some
+    # Creating a new table from the catalog provided by GF+21 throws some
     # `UnitsWarning`s associated to units impossible to parse as fits units.
     with warnings.catch_warnings():
         warnings.simplefilter("ignore")
 
-        print("Creating table from catalogue...")
+        print("Creating table from catalog...")
 
         # 'astropy.table.table.Table' object.
         table = Table.read(bintable)

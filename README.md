@@ -6,5 +6,5 @@
 
 ## gaia-3dr-wd
 
-Statistical tools for the analysis of Gaia 3DR White Dwarf catalog.
+Data analysis of Gaia 3DR White Dwarf catalog.
 

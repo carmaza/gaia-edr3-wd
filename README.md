@@ -6,5 +6,5 @@
 
 ## gaia-edr3-wd
 
-Data analysis of the Gaia EDR3 White Dwarf catalog provided by [Gentile Fusillo et al. (2019)](https://academic.oup.com/mnras/article/482/4/4570/5162857)
+Data analysis of the Gaia EDR3 White Dwarf catalog provided by [Gentile Fusillo et al. (2021)](https://academic.oup.com/mnras/article/508/3/3877/6373953).
 
